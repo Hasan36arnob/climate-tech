@@ -7,6 +7,7 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Company Info */}
           <div>
+            {/* Company Header */}
             <div className="flex items-center space-x-3 mb-6">
               <img
                 src="/green.jpg"
@@ -15,9 +16,35 @@ function Footer() {
               />
               <h3 className="text-xl font-bold text-green-400">Climate Tech</h3>
             </div>
+
+            {/* Managing Partner Section */}
+            <div className="mb-6 p-4 bg-gray-800 rounded-lg border-l-4 border-green-400">
+              <h4 className="font-bold text-white mb-2">
+                Bushra Monowar Duti , Managing Partner
+              </h4>
+              <p className="text-gray-300 text-sm">
+                Jan 2025 - Present | Bangladesh (Remote)
+              </p>
+              <ul className="mt-2 list-disc list-inside text-gray-400 text-sm">
+                <li>
+                  <a
+                    href="https://bushraduti.netlify.app/"
+                    className="text-green-400 hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Personal website
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Company Description */}
             <p className="text-gray-400 mb-6">
               Pioneering sustainable innovations for business and the planet.
             </p>
+
+            {/* Social Links */}
             <div className="flex space-x-4">
               <a
                 href="https://twitter.com/yourcompany"
@@ -67,7 +94,9 @@ function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Hasan. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Climate Tech. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
