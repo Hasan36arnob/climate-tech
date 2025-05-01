@@ -25,18 +25,7 @@ function Footer() {
               <p className="text-gray-300 text-sm">
                 Jan 2025 - Present | Bangladesh (Remote)
               </p>
-              <ul className="mt-2 list-disc list-inside text-gray-400 text-sm">
-                <li>
-                  <a
-                    href="https://bushraduti.netlify.app/"
-                    className="text-green-400 hover:underline"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Personal website
-                  </a>
-                </li>
-              </ul>
+            
             </div>
 
             {/* Company Description */}
