@@ -23,9 +23,9 @@ function Footer() {
                 Bushra Monowar Duti , Managing Partner
               </h4>
               <p className="text-gray-300 text-sm">
-                Jan 2025 - Present | Bangladesh (Remote)
+                Jan 2025 - Present | Bangladesh (Remote) , personal website :
+                https://bushradutiportfoilo.netlify.app/
               </p>
-            
             </div>
 
             {/* Company Description */}
