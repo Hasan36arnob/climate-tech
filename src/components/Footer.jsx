@@ -76,7 +76,7 @@ function Footer() {
               href="mailto:arnobhasanice@gmail.com"
               className="text-green-400 hover:text-green-300 transition-colors"
             >
-              bushra.monowar@gmail.com
+              tech4clim@gmail.com
             </a>
           </div>
         </div>
