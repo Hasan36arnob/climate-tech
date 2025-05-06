@@ -18,8 +18,6 @@ const serviceCategories = {
           "Time-series change detection",
           "Automated reporting",
         ],
-        duration: "2-4 weeks",
-        price: "Starting at $7,500",
       },
       {
         id: "qgis-solutions",
@@ -32,8 +30,6 @@ const serviceCategories = {
           "Data visualization dashboards",
           "GIS automation scripts",
         ],
-        duration: "4-8 weeks",
-        price: "Starting at $6,000",
       },
       {
         id: "climate-dashboard",
@@ -46,8 +42,6 @@ const serviceCategories = {
           "User access controls",
           "Automated data updates",
         ],
-        duration: "6-10 weeks",
-        price: "Starting at $10,000",
       },
     ],
   },
@@ -140,7 +134,7 @@ const ServiceCard = ({ service, isSelected, onSelect }) => {
           className="mt-6 pt-4 border-t border-green-400/20"
         >
           <div className="flex justify-between text-sm text-green-300">
-            <span>Duration: {service.duration}</span>
+            <span> {service.duration}</span>
             <span>{service.price}</span>
           </div>
         </motion.div>

@@ -133,7 +133,7 @@ const GreenSolutionsHero = () => {
         <div className="absolute inset-0 bg-[url('/pattern.png')] opacity-10"></div>
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-8">
-            Harnessing Geospatial Technology for Climate Solutions{" "}
+            Harnessing Technology for Climate Solutions{" "}
             <span className="text-green-400"> </span>
           </h1>
           <p className="text-xl text-white/90 mb-12 max-w-2xl mx-auto">

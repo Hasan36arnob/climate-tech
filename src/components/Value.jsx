@@ -79,10 +79,7 @@ function Value() {
               Our Technical Value
             </span>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white leading-tight">
-              Climate Insights Powered by
-              <span className="text-green-400 block mt-2">
-                Geospatial Innovation
-              </span>
+              Climate Insights Powered by Innovation
             </h2>
             <p className="text-xl text-green-100/80 max-w-3xl mx-auto">
               We transform satellite data into actionable intelligence using
