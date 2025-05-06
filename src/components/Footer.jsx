@@ -19,12 +19,24 @@ function Footer() {
 
             {/* Managing Partner Section */}
             <div className="mb-6 p-4 bg-gray-800 rounded-lg border-l-4 border-green-400">
-              <h4 className="font-bold text-white mb-2">
-                Bushra Monowar Duti , Managing Partner
-              </h4>
-              <p className="text-gray-300 text-sm">
-                Jan 2025 - Present | Bangladesh (Remote)
-              </p>
+              <div className="flex justify-between items-start">
+                <div>
+                  <h4 className="font-bold text-white mb-2">
+                    Bushra Monowar Duti
+                  </h4>
+                  <p className="text-gray-300 text-sm">
+                    Jan 2025 - Present | Bangladesh (Remote)
+                  </p>
+                </div>
+                <a
+                  href="https://bushradutiportfolio.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-400 hover:text-green-300 text-sm"
+                >
+                  Website
+                </a>
+              </div>
             </div>
 
             {/* Company Description */}
