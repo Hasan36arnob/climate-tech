@@ -63,7 +63,7 @@ const AdvancedModelling = () => {
       items: [
         "Fire Hazard Modelling",
         "Drought Modelling",
-        "Environmental Modelling",
+        "Environmental Modelling ",
       ],
     },
     {
@@ -78,7 +78,7 @@ const AdvancedModelling = () => {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-br from-green-800 via-green-700 to-green-900 relative overflow-hidden">
+    <section className="py-24 bg-gradient-to-br from-green-800 via-green-600 to-green-900 relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0 bg-[url('/pattern-grid.svg')]"></div>
