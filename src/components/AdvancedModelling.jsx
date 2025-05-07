@@ -50,7 +50,7 @@ const AdvancedModelling = () => {
   const modellingServices = [
     {
       id: "hydrological",
-      title: "Hydrological Modelling",
+
       items: [
         "River & Flood Modelling",
         "Climate Model Downscaling",
@@ -59,7 +59,7 @@ const AdvancedModelling = () => {
     },
     {
       id: "environmental",
-      title: "Ecosystem Modelling",
+
       items: [
         "Fire Hazard Modelling",
         "Drought Modelling",
@@ -68,7 +68,7 @@ const AdvancedModelling = () => {
     },
     {
       id: "land-use",
-      title: "Land Use Modelling",
+
       items: [
         "Rainfall-Runoff Modelling",
         "Land Use/Cover Modelling",
