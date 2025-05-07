@@ -5,6 +5,8 @@ import Value from "./components/Value";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
 import ContactPage from "./pages/contactPage";
+import ClimateConsultancy from "./components/ClimateConsultancy";
+import AdvancedModelling from "./components/AdvancedModelling";
 
 export default function App() {
   return (
@@ -20,6 +22,8 @@ export default function App() {
                 <GreenSolutionHero />
                 <Value />
                 <Services />
+                <ClimateConsultancy />
+                <AdvancedModelling />
                 <Footer />
               </>
             }
