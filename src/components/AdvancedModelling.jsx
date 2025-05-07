@@ -59,7 +59,7 @@ const AdvancedModelling = () => {
     },
     {
       id: "environmental",
-      title: "Environmental Modelling",
+      title: "Ecosystem Modelling",
       items: [
         "Fire Hazard Modelling",
         "Drought Modelling",
