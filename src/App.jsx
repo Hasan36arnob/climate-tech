@@ -7,6 +7,11 @@ import Footer from "./components/Footer";
 import ContactPage from "./pages/contactPage";
 import ClimateConsultancy from "./components/ClimateConsultancy";
 import AdvancedModelling from "./components/AdvancedModelling";
+import InnovationServices from "./components/InnovationServices";
+import RenewableEnergyServices from "./components/RenewableEnergyServices";
+import ESGServices from "./components/ESGServices";
+import ClimateFinanceServices from "./components/ClimateFinanceServices";
+import CarbonMarketServices from "./components/CarbonMarketServices";
 
 export default function App() {
   return (
@@ -24,6 +29,11 @@ export default function App() {
                 <Services />
                 <ClimateConsultancy />
                 <AdvancedModelling />
+                <InnovationServices />
+                <RenewableEnergyServices />
+                <ESGServices />
+                <ClimateFinanceServices />
+                <CarbonMarketServices />
                 <Footer />
               </>
             }
