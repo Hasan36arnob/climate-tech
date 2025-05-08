@@ -22,7 +22,7 @@ function Footer() {
               <div className="flex justify-between items-start">
                 <div>
                   <h4 className="font-bold text-white mb-2">
-                    Bushra Monowar Duti
+                    Managing Partner, Bushra Monowar Duti
                   </h4>
                   <p className="text-gray-300 text-sm">
                     Jan 2025 - Present | Bangladesh (Remote)
