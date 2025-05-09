@@ -75,7 +75,7 @@ const ESGServices = () => {
       id: "social",
       title: "Social",
       description:
-        "Community engagement, diversity & inclusion, and human rights impact assessments.",
+        "Driving meaningful change through community partnerships and safeguarding human rights.",
       icon: (
         <svg
           className="w-8 h-8 text-white"
